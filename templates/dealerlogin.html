@@ -1,0 +1,37 @@
+{% extends 'baselogin.html' %}
+
+{% block title %} Dealer Login {% endblock title %} 
+
+{% block form %} 
+<h2>Dealer Login</h2>
+<di class="row">
+<div class="col-md-4"></div>
+
+<div class="col-md-4">
+    <form action="" method="post">
+        
+        <div class="form-group">
+            <input type="email" class="form-control mt-2" placeholder="enter your e-mail id" name="email" required>
+        </div>
+        <div class="form-group">
+            <input type="date" class="form-control mt-2" placeholder="enter your password" name="dob" required>
+        </div>
+        
+        <br>
+        <br>
+<button type="submit" class="btn btn-info">LogIn</button>
+<button type="reset" class="btn btn-info">reset</button>
+
+    </form>
+    <br>
+
+
+
+</div>
+
+<div class="col-md-4"></div>
+
+</di>
+
+
+{% endblock form %} 
